@@ -1,0 +1,25 @@
+{
+  "name": "parcel_bot",
+  "version": "1.0.0",
+  "description": "Telegram bot, that check if Latvia is in Austrian post parcel ban list due to Covid-19",
+  "main": "",
+  "scripts": {
+    "build": "tsc -b",
+    "start": "./start.sh"
+  },
+  "keywords": [],
+  "author": "Ivars Veidelis",
+  "license": "GPL",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3",
+    "papaparse": "^5.2.0",
+    "telegraf": "^3.38.0"
+  },
+  "devDependencies": {
+    "@types/cheerio": "^0.22.18",
+    "@types/node": "^13.13.2",
+    "@types/papaparse": "^5.0.3",
+    "typescript": "^3.8.3"
+  }
+}

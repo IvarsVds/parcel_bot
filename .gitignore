@@ -1,0 +1,7 @@
+node_modules/
+.vscode/
+build/*
+src/*.js
+settings.env
+deploy.sh
+parcelbot.tar.gz
