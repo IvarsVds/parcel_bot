@@ -18,5 +18,9 @@ docker build -t parcelbot .
 ```
 Run docker container:
 ```
-docker run parcelbot
+docker run -d parcelbot
 ```
+
+# 04.05.2020
+![Parcel Bot in action](thanks.png)
+Parcel bot served me well and it was a fun project. Now all I have to do is to wait for the shipiment to arrive! :)
